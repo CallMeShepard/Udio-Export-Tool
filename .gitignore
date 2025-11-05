@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Udio Export Tool Specifics
+logs/
+data_cache.json
+_Exported/
+
 # C extensions
 *.so
 
