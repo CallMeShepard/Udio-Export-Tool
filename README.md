@@ -1,5 +1,6 @@
 # Udio Export Tool
-**[WAS TESTED ON WINDOWS 11]**
+> [!NOTE]
+> **[WAS TESTED ON WINDOWS 11]**
 
 A Python script designed to scrape and download your generated Udio songs. It organizes the downloaded files according to your Udio folder structure and embeds comprehensive metadata and cover art into the MP3 files for archival.
 
@@ -66,7 +67,8 @@ Before running the script, you **must** update the authentication data in `confi
     *   In the **Headers** tab for that request, find the `Cookie` request header. Copy the entire string (it is typically a very long string of key-value pairs separated by semicolons).
     *   Paste this entire string into `UDIO_COOKIES` in `config.py`.
 
-> **IMPORTANT SECURITY NOTE:** These tokens and cookies are sensitive and will expire over time. If the script fails with a `401 Unauthorized` error, you will need to repeat these steps to get a fresh set of credentials. **Do not share your filled-out `config.py` or commit it to a public repository.**
+> [!IMPORTANT]
+> **SECURITY NOTE:** These tokens and cookies are sensitive and will expire over time. If the script fails with a `401 Unauthorized` error, you will need to repeat these steps to get a fresh set of credentials. **Do not share your filled-out `config.py` or commit it to a public repository.**
 
 ## Usage
 
