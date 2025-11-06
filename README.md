@@ -26,7 +26,7 @@ This tool interacts with a third-party service's private API. While the methods 
 
 ## Installation
 
-1.  **Clone the repository:**
+1.  **Clone the repository (or [download](https://github.com/CallMeShepard/Udio-Export-Tool/releases/tag/Release) and unpack `.zip` manually):**
     ```bash
     git clone https://github.com/CallMeShepard/Udio-Export-Tool.git
     cd Udio-Export-Tool
