@@ -31,7 +31,7 @@ This tool interacts with a third-party service's private API. While the methods 
     git clone https://github.com/CallMeShepard/Udio-Export-Tool.git
     cd Udio-Export-Tool
     ```
-2.  **Create and activate a virtual environment (Optional, but Recommended):**
+2.  **[Optional, but Recommended] Create and activate a virtual environment:**
     ```bash
     python -m venv venv
     # On Windows:
